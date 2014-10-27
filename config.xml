@@ -34,12 +34,7 @@
  
  
     <access origin="*"/>
-	<access origin="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<access origin="css/themes/default/jquery.mobile-1.4.4.min.css">
-	<access origin="_assets/css/jqm-demos.css">
-	<access origin="js/jquery.js">
-	<access origin="_assets/js/index.js">
-	<access origin="js/jquery.mobile-1.4.4.min.js">
+	<access origin="http://fonts.googleapis.com/" subdomains="true">
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
